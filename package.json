@@ -1,20 +1,29 @@
 {
   "name": "youtube-clone",
   "version": "1.0.0",
-  "description": "a backend at youtube",
+  "description": "A backend for a YouTube clone",
   "keywords": [
     "javascript",
-    "backend"
+    "backend",
+    "nodejs",
+    "express",
+    "mongodb"
   ],
   "license": "ISC",
   "author": "Sachin Yadav",
   "type": "module",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
-    "dev": "nodemon src/index.js"
+    "dev": "nodemon src/index.js",
+    "start": "node src/index.js"
   },
   "devDependencies": {
     "nodemon": "^3.1.14",
     "prettier": "^3.9.6"
+  },
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "mongoose": "^9.9.4"
   }
 }
